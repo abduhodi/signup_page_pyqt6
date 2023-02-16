@@ -1,10 +1,9 @@
-from widgets.main import *
-import sys, img
-from PyQt6.QtWidgets import *
+from widgets.main import QApplication, MainWindow
+from sys import argv
 
 
 if __name__ == "__main__":
-    app = QApplication(sys.argv)
+    app = QApplication(argv)
     main = MainWindow()
     main.show()
 
